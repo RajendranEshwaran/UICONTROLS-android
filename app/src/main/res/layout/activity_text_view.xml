@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextViewActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="342dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="29dp"
+        android:lineSpacingExtra="14sp"
+        android:text="Welcome To Ready4Games page"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="29dp"
+        android:background="@android:color/darker_gray"
+        android:fontFamily="casual"
+        android:gravity="center|fill_horizontal"
+        android:text="Welcome To Ready4Games page"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="29dp"
+        android:ems="@android:integer/config_mediumAnimTime"
+        android:fontFamily="monospace"
+        android:text="Welcome To Ready4Games page"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="29dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:text="Welcome To www.Ready4Games.com page"
+        android:textColorLink="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

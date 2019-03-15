@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/textViewBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goTextViewActivity"
+            android:text="TEXTVIEW" />
+
+        <Button
+            android:id="@+id/editTextBtn"
+            android:layout_width="match_parent"
+            android:onClick="gotoEditTextActivity"
+            android:layout_height="wrap_content"
+            android:text="EDITTEXT" />
+
+        <Button
+            android:id="@+id/autoCompBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AUTO COMPLETE TEXT" />
+
+        <Button
+            android:id="@+id/imageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IMAGE BUTTON" />
+
+        <Button
+            android:id="@+id/toggleBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOGGLE" />
+
+        <Button
+            android:id="@+id/checkboxBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CHECK BOX" />
+
+        <Button
+            android:id="@+id/progressBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROGRESSBAR" />
+
+        <Button
+            android:id="@+id/spinnerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SPINNER" />
+
+        <Button
+            android:id="@+id/datepickerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DATE PICKER" />
+
+        <Button
+            android:id="@+id/timepickerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIME PICKER" />
+
+        <Button
+            android:id="@+id/seekbarBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SEEKBAR" />
+
+        <Button
+            android:id="@+id/ratingBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RATEBAR" />
+
+        <Button
+            android:id="@+id/textclockBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEXTCLOCK" />
+
+        <Button
+            android:id="@+id/alertBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ALERT DIALOG" />
+
+        <Button
+            android:id="@+id/switchBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SWITCH" />
+    </LinearLayout>
+
+
+</ScrollView>
