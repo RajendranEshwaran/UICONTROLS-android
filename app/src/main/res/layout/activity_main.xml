@@ -30,36 +30,42 @@
 
         <Button
             android:id="@+id/autoCompBtn"
+            android:onClick="gotoAutocompleteTextActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="AUTO COMPLETE TEXT" />
 
         <Button
             android:id="@+id/imageBtn"
+            android:onClick="gotoImageButtonActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="IMAGE BUTTON" />
 
         <Button
             android:id="@+id/toggleBtn"
+            android:onClick="gotoToogleActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TOGGLE" />
 
         <Button
             android:id="@+id/checkboxBtn"
+            android:onClick="gotoCheckBoxActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="CHECK BOX" />
 
         <Button
             android:id="@+id/progressBtn"
+            android:onClick="gotoProgressBarActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="PROGRESSBAR" />
 
         <Button
             android:id="@+id/spinnerBtn"
+            android:onClick="gotoSpinnerActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SPINNER" />
@@ -105,6 +111,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SWITCH" />
+
+        <Button
+            android:id="@+id/radioBtn"
+            android:onClick="gotoRadioButtonActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RADIO BUTTON" />
     </LinearLayout>
 
 

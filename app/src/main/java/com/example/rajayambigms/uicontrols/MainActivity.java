@@ -67,5 +67,46 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,editTextActivity.class);
         startActivity(intent);
     }
+    public void gotoAutocompleteTextActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,AutocompleteTextActivity.class);
+        startActivity(intent);
+    }
+
+    public void gotoToogleActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,ToggleButtonActivity.class);
+        startActivity(intent);
+    }
+
+    public void gotoImageButtonActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,ImageButtonActivity.class);
+        startActivity(intent);
+    }
+
+    public void gotoCheckBoxActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,CheckBoxActivity.class);
+        startActivity(intent);
+    }
+
+    public void gotoRadioButtonActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,RadioButtonActivity.class);
+        startActivity(intent);
+    }
+
+    public void gotoProgressBarActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,ProgressBarActivity.class);
+        startActivity(intent);
+    }
+
+    public void gotoSpinnerActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,SpinnerActivity.class);
+        startActivity(intent);
+    }
 
 }
