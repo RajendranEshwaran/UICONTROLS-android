@@ -72,42 +72,49 @@
 
         <Button
             android:id="@+id/datepickerBtn"
+            android:onClick="gotoDatePickerActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="DATE PICKER" />
 
         <Button
             android:id="@+id/timepickerBtn"
+            android:onClick="gotoTimerPickerActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TIME PICKER" />
 
         <Button
             android:id="@+id/seekbarBtn"
+            android:onClick="gotoSeekbarActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SEEKBAR" />
 
         <Button
             android:id="@+id/ratingBtn"
+            android:onClick="gotoRatingBarActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RATEBAR" />
 
         <Button
             android:id="@+id/textclockBtn"
+            android:onClick="gotoTextClockActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="TEXTCLOCK" />
 
         <Button
             android:id="@+id/alertBtn"
+            android:onClick="gotoDialogActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="ALERT DIALOG" />
 
         <Button
             android:id="@+id/switchBtn"
+            android:onClick="gotoSwitchActivity"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="SWITCH" />

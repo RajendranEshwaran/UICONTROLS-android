@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextClockActivity">
+
+    <TextClock
+        android:id="@+id/textClock1"
+        android:layout_width="241dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="42dp"
+        android:format24Hour="hh:mm:ss a"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextClock
+        android:id="@+id/textClock2"
+        android:layout_width="247dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="188dp"
+        android:layout_marginEnd="8dp"
+        android:format24Hour="hh:mm:ss a"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextClock
+        android:id="@+id/textClock3"
+        android:layout_width="256dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginEnd="70dp"
+        android:format12Hour="hh:mm a"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -109,4 +109,39 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void gotoSeekbarActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,SeekBarActivity.class);
+        startActivity(intent);
+    }
+    public void gotoDatePickerActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,DatePickerActivity.class);
+        startActivity(intent);
+    }
+    public void gotoTimerPickerActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,TimePickerActivity.class);
+        startActivity(intent);
+    }
+    public void gotoRatingBarActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,RatingBarActivity.class);
+        startActivity(intent);
+    }
+    public void gotoTextClockActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,TextClockActivity.class);
+        startActivity(intent);
+    }
+    public void gotoSwitchActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,SwitchActivity.class);
+        startActivity(intent);
+    }
+    public void gotoDialogActivity(View view)
+    {
+        Intent intent = new Intent(MainActivity.this,DialogActivity.class);
+        startActivity(intent);
+    }
 }
